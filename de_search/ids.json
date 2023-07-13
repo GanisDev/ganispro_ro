@@ -1,0 +1,16 @@
+{
+	"1": ["Title", "index.htm", []],
+	"2": ["Contul", "contul.htm", []],
+	"3": ["Meniul principal al aplicației", "meniul_principal_al_aplica_iei.htm", []],
+	"4": ["Meniul utilizator", "meniul_utilizator.htm", [2]],
+	"5": ["Setările aplicației", "setarile_aplica_iei.htm", [2]],
+	"6": ["SOS", "sos.htm", [2]],
+	"7": ["Copie de siguranță și restaurare", "copie_de_siguran_a__i_restaurare.htm", [2]],
+	"8": ["Locația curentă", "loca_ia_curenta.htm", []],
+	"9": ["Prieteni", "prieteni.htm", []],
+	"10": ["NavAssist", "navassist.htm", []],
+	"11": ["VI. HARTĂ", "vi__harta.htm", []],
+	"12": ["VII. PUNCTE", "vii__puncte.htm", []],
+	"13": ["Altele", "altele.htm", []],
+	"14": ["VIII.1. Coordonate GPS primite de la alte aplicații", "viii_1__coordonate_gps_primite_de_la_alte_aplica_ii.htm", [8]]
+}
