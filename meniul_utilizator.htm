@@ -80,7 +80,7 @@
 <col style="width: 100%;" class="de_col_1_576" />
 <tr style="height: 89px;">
 <td class="de_td_576" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 0px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 100%; vertical-align: bottom;" colspan = "1" rowspan = "1" >
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  float: left; " width="68" height="68" class=" de_D457E58A2E" src="drex_header_custom.png"/><span style="font-family: &quot;Arial&quot;;font-size: 20pt;color:#f0f0f0;"><strong>Ganis Pro</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  float: left; " width="35" height="35" class=" de_D7A9C94272" src="drex_header_custom.png"/><span style="font-family: &quot;Arial&quot;;font-size: 20pt;color:#f0f0f0;"><strong>Ganis Pro</strong></span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span style="font-family: &quot;Arial&quot;;font-size: 18pt;color:#f0f0f0;"><strong><sup>Manual de utilizare</sup></strong></span></div>
 </td></tr></table></div>
                         </div>
@@ -128,10 +128,6 @@
                                 <span class="b-tabs__selectorContent">Meniu</span>
                             </div>
     
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
-                                <span class="b-tabs__selectorContent">Index</span>
-                             </div>
     
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
@@ -233,7 +229,8 @@
                         <ul class="b-controlButtons__items">
                             <li class="b-controlButtons__item m-controlButtons__item__prev"><a href="meniul_principal_al_aplica_iei.htm" class="b-controlButtons__link" title="Pagina anterioar&#x0103;"><span class="b-controlButtons__link_icon"></span><span class="b-controlButtons__link_text">&#xa0;Pagina anterioar&#x0103;</span></a></li>
                             <li class="b-controlButtons__item m-controlButtons__item__next"><a href="setarile_aplica_iei.htm" class="b-controlButtons__link" title="Pagina urm&#x0103;toare"><span class="b-controlButtons__link_text">Pagina urm&#x0103;toare&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
-                                                </ul>
+                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="meniul_utilizator_print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>Varianta pentru imprimare</a></li>
+                        </ul>
                     </div>
                 </td>
             </tr>
@@ -261,7 +258,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"meniul_principal_al_aplica_iei.htm\" class=\"b-controlButtons__link\" title=\"Pagina anterioar&#x0103;\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;Pagina anterioar&#x0103;</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"setarile_aplica_iei.htm\" class=\"b-controlButtons__link\" title=\"Pagina urm&#x0103;toare\"><span class=\"b-controlButtons__link_text\">Pagina urm&#x0103;toare&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"meniul_principal_al_aplica_iei.htm\" class=\"b-controlButtons__link\" title=\"Pagina anterioar&#x0103;\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;Pagina anterioar&#x0103;</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"setarile_aplica_iei.htm\" class=\"b-controlButtons__link\" title=\"Pagina urm&#x0103;toare\"><span class=\"b-controlButtons__link_text\">Pagina urm&#x0103;toare&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"meniul_utilizator_print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>Varianta pentru imprimare</a></li>\n"))
                             )
                         )
                     )
@@ -314,24 +311,24 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Este accesibil apăsând săgeata în jos din dreapta adresei de e-mail. </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">
 <a class="anchor" id="wndid_top"></a>
-<map name="controlmape1227e81_4ec8_4f35_8e1d_a11930f3895e" id="controlmape1227e81_4ec8_4f35_8e1d_a11930f3895e">
-</map><img usemap="#controlmape1227e81_4ec8_4f35_8e1d_a11930f3895e"  alt="Meniul utilizator" style="border: solid 0px;  " width="604" height="377" class="de_wndimg de_780D01ADE8" src="drex_meniul_utilizator_screen.png"/></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"></div>
+<map name="controlmap3bf6bff9_3a0a_4b72_8470_6b4649fe53ed" id="controlmap3bf6bff9_3a0a_4b72_8470_6b4649fe53ed">
+</map><img usemap="#controlmap3bf6bff9_3a0a_4b72_8470_6b4649fe53ed"  alt="Meniul utilizator" style="border: solid 0px;  " width="596" height="423" class="de_wndimg de_780D01ADE8" src="drex_meniul_utilizator_screen.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Opțiunile acestui meniu sunt:</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 100px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="200" height="252" class=" de_780D01ADE8" src="drex_meniul_utilizator_custom.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="" style="border: solid 1px;  " width="200" height="252" class=" de_780D01ADE8" src="drex_meniul_utilizator_custom.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>1. Trimite linkul „Adăugă-mă ca prieten”</strong>:</span><span class="de_4AF4BF9DD6"> pentru a trimite un link care va fi folosit de către destinatar pentru a vă adăuga în lista de prieteni din Ganis Pro. </span><span class="de_45E825280E"><strong>Acest link se trimite către cineva care are aplicația instalată pe dispozitivul său!</strong></span><span class="de_4AF4BF9DD6"> Prietenul dvs., când va deschide acest link, trebuie să selecteze Ganis Pro din lista de aplicații ce va apare.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>1. Trimite linkul „Adăugă-mă ca prieten”</strong>:</span><span class="de_4AF4BF9DD6"> pentru a trimite un link care va fi folosit de către destinatar pentru a vă adăuga în lista sa de prieteni din Ganis Pro. </span><span class="de_45E825280E"><strong>Acest link se trimite către cineva care are aplicația instalată pe dispozitivul său!</strong></span><span class="de_4AF4BF9DD6"> Prietenul dvs., când va deschide acest link, trebuie să selecteze Ganis Pro din lista de aplicații ce va apare.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>2. Trimite linkul „Adăugă-mă în grup”</strong>:</span><span class="de_4AF4BF9DD6"> pentru a trimite un link care va fi folosit de către destinatar pentru a vă adăuga într-un grup NavAssist. </span><span class="de_45E825280E"><strong>Acest link se trimite către cineva care are aplicația instalată pe dispozitivul său!</strong></span><span class="de_4AF4BF9DD6"> Prietenul dvs., când va deschide acest link, trebuie să selecteze Ganis Pro din lista de aplicații ce va apare.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>3. Trimite adresa de e-mail</strong></span><span class="de_4AF4BF9DD6"> către un destinatar pentru a vă vă adăuga în lista de prieteni din Ganis Pro.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>4. Log out:  </strong></span><span class="de_4AF4BF9DD6"> pentru a vă deconecta de pe server. După acestă operațiune, ceilalți utilizatori nu vă vor putea contacta în aplicatie (pentru oferte Gps sau pentru solicitări de alăturare la un grup).</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>4. Log out:  </strong></span><span class="de_4AF4BF9DD6"> pentru a vă deconecta de pe server. După acestă operațiune, ceilalți utilizatori nu vă vor putea contacta în aplicatie (pentru oferte GPS sau pentru solicitări de alăturare la un grup).</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_E0D79DE1AC"><strong>5. Elimină utilizatorul:</strong></span><span class="de_4AF4BF9DD6"> pentru a șterge utilizatorul și toate datele sale de pe server. </span><span class="de_45E825280E"><strong>Ulterior nu veți putea înregistra un alt cont cu această adresă de e-mail.</strong></span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6"> </span></div>

@@ -9,8 +9,10 @@
 	"8": ["Locația curentă", "loca_ia_curenta.htm", []],
 	"9": ["Prieteni", "prieteni.htm", []],
 	"10": ["NavAssist", "navassist.htm", []],
-	"11": ["VI. HARTĂ", "vi__harta.htm", []],
-	"12": ["VII. PUNCTE", "vii__puncte.htm", []],
-	"13": ["Altele", "altele.htm", []],
-	"14": ["VIII.1. Coordonate GPS primite de la alte aplicații", "viii_1__coordonate_gps_primite_de_la_alte_aplica_ii.htm", [8]]
+	"11": ["Grupul de navigare", "grupul_de_navigare.htm", [5]],
+	"12": ["Conexiune În apropiere", "conexiune_in_apropiere.htm", [5]],
+	"13": ["Hartă", "harta.htm", []],
+	"14": ["Puncte", "puncte.htm", []],
+	"15": ["Altele", "altele.htm", []],
+	"16": ["Coordonate GPS primite de la alte aplicații", "coordonate_gps_primite_de_la_alte_aplica_ii.htm", [8]]
 }

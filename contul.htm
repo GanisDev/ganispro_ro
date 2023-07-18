@@ -80,7 +80,7 @@
 <col style="width: 100%;" class="de_col_1_576" />
 <tr style="height: 89px;">
 <td class="de_td_576" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 0px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 100%; vertical-align: bottom;" colspan = "1" rowspan = "1" >
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  float: left; " width="68" height="68" class=" de_D457E58A2E" src="drex_header_custom.png"/><span style="font-family: &quot;Arial&quot;;font-size: 20pt;color:#f0f0f0;"><strong>Ganis Pro</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  float: left; " width="35" height="35" class=" de_D7A9C94272" src="drex_header_custom.png"/><span style="font-family: &quot;Arial&quot;;font-size: 20pt;color:#f0f0f0;"><strong>Ganis Pro</strong></span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span style="font-family: &quot;Arial&quot;;font-size: 18pt;color:#f0f0f0;"><strong><sup>Manual de utilizare</sup></strong></span></div>
 </td></tr></table></div>
                         </div>
@@ -128,10 +128,6 @@
                                 <span class="b-tabs__selectorContent">Meniu</span>
                             </div>
     
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
-                                <span class="b-tabs__selectorContent">Index</span>
-                             </div>
     
                             <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
                                 <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
@@ -231,7 +227,8 @@
                         <ul class="b-controlButtons__items">
                             <li class="b-controlButtons__item m-controlButtons__item__prev"><a href="index.htm" class="b-controlButtons__link" title="Pagina anterioar&#x0103;"><span class="b-controlButtons__link_icon"></span><span class="b-controlButtons__link_text">&#xa0;Pagina anterioar&#x0103;</span></a></li>
                             <li class="b-controlButtons__item m-controlButtons__item__next"><a href="meniul_principal_al_aplica_iei.htm" class="b-controlButtons__link" title="Pagina urm&#x0103;toare"><span class="b-controlButtons__link_text">Pagina urm&#x0103;toare&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
-                                                </ul>
+                                <li class="b-controlButtons__item m-controlButtons__item__print"><a href="contul_print.htm" class="b-controlButtons__link"><span class="b-interfaceIcon m-interfaceIcon__print"></span>Varianta pentru imprimare</a></li>
+                        </ul>
                     </div>
                 </td>
             </tr>
@@ -259,7 +256,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"index.htm\" class=\"b-controlButtons__link\" title=\"Pagina anterioar&#x0103;\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;Pagina anterioar&#x0103;</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"meniul_principal_al_aplica_iei.htm\" class=\"b-controlButtons__link\" title=\"Pagina urm&#x0103;toare\"><span class=\"b-controlButtons__link_text\">Pagina urm&#x0103;toare&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"index.htm\" class=\"b-controlButtons__link\" title=\"Pagina anterioar&#x0103;\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;Pagina anterioar&#x0103;</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"meniul_principal_al_aplica_iei.htm\" class=\"b-controlButtons__link\" title=\"Pagina urm&#x0103;toare\"><span class=\"b-controlButtons__link_text\">Pagina urm&#x0103;toare&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n        <li class=\"b-controlButtons__item m-controlButtons__item__print\"><a href=\"contul_print.htm\" class=\"b-controlButtons__link\"><span class=\"b-interfaceIcon m-interfaceIcon__print\"></span>Varianta pentru imprimare</a></li>\n"))
                             )
                         )
                     )
@@ -310,11 +307,21 @@
     </noscript>
                 <div class="description_on_page"><div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Contul</strong></h1></div></div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 48px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Pentru a utiliza aplicația  trebuie să vă creați un cont furnizând un nume (pe care ceilalți utilizatori îl vor vedea în aplicația lor), o adresă de e-mail validă (pe care o veți folosi pentru a vă autentifica și pentru a recupera parola în cazul în care ați uitat-o) și o parolă (e recomandat să conțină minimum 8 caractere, dintre care cel puțin o literă mare, o literă mică, un număr și un caracter special). După ce apăsați butonul „Înregistrare”, va apare o fereastră de notificare pentru a verifica dacă adresa de e-mail introdusă este cea corectă. Pentru a crea un cont de utilizator și a vă autentifica, trebuie să apăsați mai departe butonul <strong>Bine</strong>.</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Pentru a utiliza aplicația  trebuie să vă creați un cont furnizând: </span></div>
+<ul class="de_list"><li class="list-element list-counter-0" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; direction: ltr; counter-reset: list-counter-0;">
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; display: inline-block; direction: ltr;"></div><span class="de_4AF4BF9DD6">un nume (pe care ceilalți utilizatori îl vor vedea în aplicația lor), </span></div>
+</li><li class="list-element list-counter-0" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; direction: ltr; ">
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; display: inline-block; direction: ltr;"></div><span class="de_4AF4BF9DD6">o adresă de e-mail validă (pe care o veți folosi pentru a vă autentifica și pentru a recupera parola în cazul în care ați uitat-o), </span></div>
+</li><li class="list-element list-counter-0" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; direction: ltr; ">
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; display: inline-block; direction: ltr;"></div><span class="de_4AF4BF9DD6">o parolă (e recomandat să conțină minimum 8 caractere, dintre care cel puțin o literă mare, o literă mică, un număr și un caracter special). </span></div>
+</li></ul><div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">După ce apăsați butonul </span><span class="de_E0D79DE1AC"><strong>Înregistrare</strong></span><span class="de_4AF4BF9DD6">, va apare o fereastră de notificare pentru a verifica dacă adresa de e-mail introdusă este cea corectă. Pentru a crea un cont de utilizator și a vă autentifica, trebuie să apăsați mai departe butonul <strong>Bine</strong>.</span></div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 48px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Puteți testa aplicația timp de 10 zile. După aceea, dacă doriți să utilizați funcțiile versiunii Pro (<strong>Prieteni</strong>, <strong>NavAssist</strong>, <strong>Conexiunea În apropiere</strong> și importul din fițiere kml si json), trebuie să cumpărați o licență (cu opțiuea <strong>Cumpără licență</strong> din meniul principal al aplicației).</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Puteți testa aplicația timp de 10 zile. După această perioadă, dacă doriți să utilizați funcțiile versiunii Pro (<strong>Prieteni</strong>, <strong>NavAssist</strong>, <strong>Conexiunea În apropiere</strong> și importul din fișiere kml si json), trebuie să cumpărați o licență (cu opțiuea <strong>Cumpără licență</strong> din meniul principal al aplicației).</span></div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 48px;">&#160;</div>
-<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Datorită modului în care este construită aplicația, un utilizator nu poate fi folosit în același timp pe 2 dispozitive diferite. Pentru a preveni utilizarea necorespunzătoare a licenței, un utilizator nu poate fi  folosi pe mai mult de 3 dispozitive diferite, într-un an de zile. De asemeni, nu mai mult de 3 utilizatori diferiți pot fi folosiți pe un dispozitiv, într-un an.</span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Datorită modului în care este concepută aplicația, un utilizator nu poate fi folosit în același timp pe 2 dispozitive diferite. </span></div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6">Pentru a preveni utilizarea necorespunzătoare a licenței, un utilizator nu poate fi  folosit pe mai mult de 3 dispozitive diferite, într-un an de zile. De asemeni, nu mai mult de 3 utilizatori diferiți pot fi folosiți pe un dispozitiv, într-un an.</span></div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 48px;">&#160;</div>
 <div class="p" style="text-align: justify; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_4AF4BF9DD6"> </span></div>
 </div>                                    			

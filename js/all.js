@@ -1181,10 +1181,10 @@ InputSync.prototype ={
 DR_EXPLAIN.namespace( 'DR_EXPLAIN.data_menu' );
 DR_EXPLAIN.data_menu = {
     // menu
-    DREX_NODE_NAMES: ["Title","Contul","Meniul principal al aplicației","Locația curentă","Prieteni","NavAssist","VI. HARTĂ","VII. PUNCTE","Altele","Meniul utilizator","Setările aplicației","SOS","Copie de siguranță și restaurare","VIII.1. Coordonate GPS primite de la alte aplicații"],
-    DREX_NODE_LINKS: ["index.htm","contul.htm","meniul_principal_al_aplica_iei.htm","loca_ia_curenta.htm","prieteni.htm","navassist.htm","vi__harta.htm","vii__puncte.htm","altele.htm","meniul_utilizator.htm","setarile_aplica_iei.htm","sos.htm","copie_de_siguran_a__i_restaurare.htm","viii_1__coordonate_gps_primite_de_la_alte_aplica_ii.htm"],
-    DREX_NODE_CHILD_START: [1,9,9,13,13,13,13,13,13,14,14,14,14,14],
-    DREX_NODE_CHILD_END: [9,9,13,13,13,13,13,13,14,14,14,14,14,14],
+    DREX_NODE_NAMES: ["Title","Contul","Meniul principal al aplicației","Locația curentă","Prieteni","NavAssist","Hartă","Puncte","Altele","Meniul utilizator","Setările aplicației","SOS","Copie de siguranță și restaurare","Grupul de navigare","Conexiune În apropiere","Coordonate GPS primite de la alte aplicații"],
+    DREX_NODE_LINKS: ["index.htm","contul.htm","meniul_principal_al_aplica_iei.htm","loca_ia_curenta.htm","prieteni.htm","navassist.htm","harta.htm","puncte.htm","altele.htm","meniul_utilizator.htm","setarile_aplica_iei.htm","sos.htm","copie_de_siguran_a__i_restaurare.htm","grupul_de_navigare.htm","conexiune_in_apropiere.htm","coordonate_gps_primite_de_la_alte_aplica_ii.htm"],
+    DREX_NODE_CHILD_START: [1,9,9,13,13,13,15,15,15,16,16,16,16,16,16,16],
+    DREX_NODE_CHILD_END: [9,9,13,13,13,15,15,15,16,16,16,16,16,16,16,16],
     DREX_MENU_TYPE: 2,
     DREX_HAS_ROOT_NODE: 0};
 
